@@ -294,6 +294,8 @@ Notably, [SGLang v0.4.1](https://github.com/sgl-project/sglang/releases/tag/v0.4
 
 SGLang also supports [multi-node tensor parallelism](https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3#example-serving-with-2-h208), enabling you to run this model on multiple network-connected machines.
 
+Multi-Token Prediction (MTP) is in development, and progress can be tracked in the [optimization plan](https://github.com/sgl-project/sglang/issues/2591).
+
 Here are the launch instructions from the SGLang team: https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3
 
 ### 6.3 Inference with LMDeploy (recommended)
