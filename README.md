@@ -93,12 +93,12 @@ Throughout the entire training process, we did not experience any irrecoverable 
 
 | **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download** |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
-| DeepSeek-V3-Base | 671B | 37B | 128K   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V3-Base)   |
-| DeepSeek-V3   | 671B | 37B |  128K   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V3)   |
+| DeepSeek-V3-Base | 671B | 37B | 128K   | [🤗 Hugging Face](https://huggingface.co/deepseek-ai/DeepSeek-V3-Base)   |
+| DeepSeek-V3   | 671B | 37B |  128K   | [🤗 Hugging Face](https://huggingface.co/deepseek-ai/DeepSeek-V3)   |
 
 </div>
 
-**NOTE: The total size of DeepSeek-V3 models on HuggingFace is 685B, which includes 671B of the Main Model weights and 14B of the Multi-Token Prediction (MTP) Module weights.**
+**NOTE: The total size of DeepSeek-V3 models on Hugging Face is 685B, which includes 671B of the Main Model weights and 14B of the Multi-Token Prediction (MTP) Module weights.**
 
 To ensure optimal performance and flexibility, we have partnered with open-source communities and hardware vendors to provide multiple ways to run the model locally. For step-by-step guidance, check out Section 6: [How_to Run_Locally](#6-how-to-run-locally).
 
@@ -243,7 +243,7 @@ cd inference
 python fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-hf-path /path/to/bf16_weights
 ```
 
-**NOTE: Huggingface's Transformers has not been directly supported yet.**
+**NOTE: Hugging Face's Transformers has not been directly supported yet.**
 
 ### 6.1 Inference with DeepSeek-Infer Demo (example only)
 
@@ -262,11 +262,11 @@ cd DeepSeek-V3/inference
 pip install -r requirements.txt
 ```
 
-Download the model weights from HuggingFace, and put them into `/path/to/DeepSeek-V3` folder.
+Download the model weights from Hugging Face, and put them into `/path/to/DeepSeek-V3` folder.
 
 #### Model Weights Conversion
 
-Convert HuggingFace model weights to a specific format:
+Convert Hugging Face model weights to a specific format:
 
 ```shell
 python convert.py --hf-ckpt-path /path/to/DeepSeek-V3 --save-path /path/to/DeepSeek-V3-Demo --n-experts 256 --model-parallel 16
