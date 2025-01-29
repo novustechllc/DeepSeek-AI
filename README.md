@@ -338,6 +338,6 @@ This code repository is licensed under [the MIT License](LICENSE-CODE). The use 
 ## 👋 Contact Here
 
 ### 
-Telegram: https://t.me/earthzeta
+Telegram: https://t.me/magiceden7
 ###
 
