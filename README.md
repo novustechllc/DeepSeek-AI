@@ -337,7 +337,7 @@ This code repository is licensed under [the MIT License](LICENSE-CODE). The use 
 
 ## 👋 Contact Here
 
-### 
-Telegram: https://t.me/magiceden7
-###
+### Telegram: https://t.me/novustechllc
+### Whatsapp: https://wa.me/14105015750
+
 
